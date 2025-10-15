@@ -1,99 +1,85 @@
-# HIT-140-Assessment-3-Group-75-
-🦇🐀 Bat vs Rat: The Forage Files
-HIT140 – Foundations of Data Science (Assessment 3)
-📘 Project Overview
+Got it 👍 — here’s a **simplified, clean README.md** version with only the essential details and no tables:
 
-This repository contains the complete Python implementation and datasets for HIT140 Assessment 3 – Group Project: Bat vs Rat: The Forage Files.
-The study investigates nocturnal feeding interactions between Egyptian fruit bats (Rousettus aegyptiacus) and black rats (Rattus rattus) that share a provisioned food platform in Northern Australia.
+---
 
-The analysis explores two complementary investigations:
+# 🦇🐀 Bat vs Rat: The Forage Files
 
-Investigation A: Do bats perceive rats as predators or competitors?
+### HIT140 – Foundations of Data Science (Assessment 3)
 
-Investigation B: How does rat activity vary with season, time, and food availability?
+## 📘 Project Overview
 
-Using Python-based data science techniques, the project applies data wrangling, descriptive and inferential statistics, and regression modelling to understand behavioural coexistence patterns.
+This repository contains the Python scripts and datasets for our HIT140 Assessment 3 group project titled **“Bat vs Rat: The Forage Files.”**
+The project investigates nocturnal foraging interactions between **Egyptian fruit bats** and **black rats** sharing a food platform in Northern Australia.
+It aims to understand whether bats perceive rats as competitors or predators and how rat activity changes with season, time, and food availability.
 
-🎯 Objectives
-Investigation	Focus	Main Question
-A	Bat Behavioural Response	Do bats alter vigilance, risk-taking, or foraging success in the presence of rats?
-B	Rat Seasonal & Temporal Activity	How do environmental factors (season, time after sunset, food availability) influence rat foraging?
-📊 Datasets
-Dataset	Description	Records	Key Variables
-dataset1.csv	Individual bat landings and behaviour relative to rat presence.	907	start_time, risk, reward, vigilance_proxy, season, hours_after_sunset
-dataset2.csv	Rat arrivals in 30-minute intervals and environmental context.	2,123	rat_minutes, rat_arrival_number, food_availability, hours_after_sunset, season, bat_landing_number
+---
 
-Both datasets originate from motion-activated observations of shared feeding events.
+## 🎯 Objectives
 
-🧠 Tools & Libraries
+The project is divided into two main investigations:
 
-All analysis and visualisation were performed in Python using:
+* **Investigation A:** Analyse bat foraging behaviour and vigilance in the presence of rats.
+* **Investigation B:** Examine rat activity across different seasons and times after sunset.
 
-pandas – data cleaning and preprocessing
+---
 
-matplotlib / seaborn – visualisations
+## 📊 Datasets
 
-scipy.stats – statistical testing (Mann–Whitney U, Chi-Square, ANOVA)
+Two datasets were used:
 
-scikit-learn – linear regression modelling
+* **Dataset 1:** Records of 907 bat landings, including timing, vigilance, risk-taking, and feeding success.
+* **Dataset 2:** Records of 2,123 rat observation intervals, including arrival frequency, duration, and food availability.
 
-🔎 Analysis Workflow
-Investigation A – Bat Behavioural Response
+Both datasets were collected through motion-activated cameras monitoring a shared feeding site.
 
-Data Cleaning & Feature Engineering:
+---
 
-Converted and standardised datetime formats.
+## 🧠 Tools & Libraries
 
-Created vigilance_proxy and rats_present_at_landing variables.
+All analysis was conducted using Python with libraries including:
 
-Descriptive Analysis:
+* pandas
+* matplotlib
+* seaborn
+* scipy.stats
+* scikit-learn
 
-Balanced risk-taking vs avoidance.
+---
 
-Feeding success unaffected by rat presence.
+## 🔎 Analysis Summary
 
-Vigilance duration stable across all seasons.
+### Investigation A – Bat Behavioural Response
 
-Inferential Tests:
+Data was cleaned and processed to create features such as vigilance proxy and rat presence flag.
+Descriptive and inferential analyses (Mann–Whitney U and Chi-Square tests) showed that bats maintained stable vigilance, risk-taking, and feeding success regardless of rat presence.
+A regression model confirmed that bat behaviour was mostly influenced by internal factors rather than by rats.
+**Conclusion:** Bats treat rats as neutral co-foragers, not threats.
 
-Mann–Whitney U and Chi-Square tests found no significant differences.
+### Investigation B – Rat Seasonal and Temporal Patterns
 
-Regression Modelling:
+Rat data was cleaned and mapped to seasonal categories.
+Descriptive analysis showed that rat activity peaked in autumn and declined in winter.
+Regression and correlation analysis revealed that seasonal conditions and food availability had the greatest influence on activity levels.
+**Conclusion:** Rat foraging is shaped by environmental conditions, not bat presence.
 
-Linear regression (R² = 0.034) showed that vigilance is influenced more by behavioural traits (risk, reward) than by rat presence.
+---
 
-🧩 Key Insight:
+## 📈 Key Findings
 
-Bats perceive rats as neutral co-foragers, not threats or competitors.
+* Bats and rats coexist peacefully at the feeding site.
+* Rat activity follows seasonal cycles, while bat behaviour remains stable.
+* Environmental factors such as temperature and food availability are stronger drivers than interspecies competition.
+* Both species demonstrate adaptive nocturnal behaviour and efficient resource sharing.
 
-Investigation B – Rat Seasonal and Temporal Patterns
+---
 
-Data Preparation: Cleaned and mapped months to Australian seasons (Dec–Jun).
+## 👥 Team Contributions
 
-Descriptive Analysis: Identified peak activity during Autumn and decline in Winter.
+* **Aman:** Data cleaning and feature engineering
+* **Deepak:** Descriptive analysis and visualisation
+* **Yashwanth:** Statistical testing and interpretation
+* **Rahul:** Regression modelling and report compilation
 
-Inferential Analysis:
+---
 
-One-way ANOVA (F = 2.21, p = 0.112) showed no significant seasonal mean difference.
-
-Correlation (r = 0.82) between rat_minutes and rat_arrival_number.
-
-Regression Model:
-
-Multiple Linear Regression (R² = 0.375, MAE = 0.442).
-
-Rat activity primarily influenced by season, hours_after_sunset, and food availability.
-
-🧩 Key Insight:
-
-Rat activity follows environmental cycles, with minimal behavioural interference from bats.
-
-📈 Summary of Findings
-
-Coexistence: Bats and rats forage simultaneously with no competitive exclusion.
-
-Temporal Adaptation: Both species show consistent nocturnal feeding patterns.
-
-Environmental Influence: Seasonal decline in rat activity due to cooler temperatures and reduced food.
-
-Behavioural Stability: Bats maintain vigilance regardless of rat presence.
+Would you like me to create this as a downloadable **README.md** file for GitHub?
