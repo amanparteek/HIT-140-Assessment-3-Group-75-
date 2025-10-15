@@ -1,9 +1,5 @@
-Got it 👍 — here’s a **simplified, clean README.md** version with only the essential details and no tables:
-
----
 
 # 🦇🐀 Bat vs Rat: The Forage Files
-
 ### HIT140 – Foundations of Data Science (Assessment 3)
 
 ## 📘 Project Overview
@@ -82,4 +78,3 @@ Regression and correlation analysis revealed that seasonal conditions and food a
 
 ---
 
-Would you like me to create this as a downloadable **README.md** file for GitHub?
